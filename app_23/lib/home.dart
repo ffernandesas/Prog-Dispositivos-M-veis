@@ -135,8 +135,8 @@ class _HomePageState extends State<HomePage> {
      Database bd = await _recuperarBancoDados();
  
     Map<String, dynamic> dadosUsuario = {
-      "nome": "Leticia Rodrigues",
-      "idade": 23,
+      "nome": "Fabio Santos",
+      "idade": 31,
     };
     int id = await bd.insert("usuarios", dadosUsuario);
     print("Salvo: $id ");
